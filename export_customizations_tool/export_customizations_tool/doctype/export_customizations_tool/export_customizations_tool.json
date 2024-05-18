@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-04 15:16:47.351033",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "doctypes",
+  "column_break_uqfhr",
+  "module_to_export",
+  "column_break_f5qcy",
+  "sync_on_migrate",
+  "column_break_pdraa",
+  "export_custom_permissions",
+  "column_break_8",
+  "export",
+  "column_break_10",
+  "export_all"
+ ],
+ "fields": [
+  {
+   "fieldname": "doctypes",
+   "fieldtype": "Table MultiSelect",
+   "label": "Doctypes",
+   "options": "Export Customizations Table"
+  },
+  {
+   "fieldname": "column_break_uqfhr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "module_to_export",
+   "fieldtype": "Link",
+   "label": "Module to Export",
+   "options": "Module Def"
+  },
+  {
+   "fieldname": "column_break_f5qcy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "1",
+   "fieldname": "sync_on_migrate",
+   "fieldtype": "Check",
+   "label": "Sync on Migrate"
+  },
+  {
+   "fieldname": "column_break_pdraa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "1",
+   "fieldname": "export_custom_permissions",
+   "fieldtype": "Check",
+   "label": "Export Custom Permissions"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "export",
+   "fieldtype": "Button",
+   "label": "Export Selected Only"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "export_all",
+   "fieldtype": "Button",
+   "label": "Export All"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-10-15 11:55:58.615462",
+ "modified_by": "Administrator",
+ "module": "Export Customizations Tool",
+ "name": "Export Customizations Tool",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

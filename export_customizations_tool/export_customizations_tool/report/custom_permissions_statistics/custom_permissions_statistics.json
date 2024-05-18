@@ -1,0 +1,28 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2023-11-01 11:33:06.443485",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "Kandil Main Letter head",
+ "modified": "2023-11-01 11:33:06.443485",
+ "modified_by": "Administrator",
+ "module": "Export Customizations Tool",
+ "name": "Custom Permissions Statistics",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "",
+ "ref_doctype": "Custom DocPerm",
+ "report_name": "Custom Permissions Statistics",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}
