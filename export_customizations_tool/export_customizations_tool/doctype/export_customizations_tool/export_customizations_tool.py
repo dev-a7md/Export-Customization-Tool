@@ -15,6 +15,7 @@ class ExportCustomizationsTool(Document):
 		cust_doctypes = frappe.db.sql("""
 			select dt
 			from `tabCustom Field`
+			where is_system_generated = 0
 			group by dt
 		""",as_dict = True)
 
